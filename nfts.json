@@ -1,0 +1,144 @@
+{
+  "NFT": [
+    {
+      "id": 1,
+      "name": " DigBicks #1",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/1.png",
+      "isSold": true,
+      "price": "0.03 FC"
+    },
+    {
+      "id": 2,
+      "name": " DigBicks #2",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/2.png",
+      "isSold": true,
+      "price": "0.05 FC"
+    },
+    {
+      "id": 3,
+      "name": " DigBicks #3",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/3.png",
+      "isSold": true,
+      "price": "0.04 FC"
+    },
+    {
+      "id": 4,
+      "name": " DigBicks #4",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/4.png",
+      "isSold": true,
+      "price": "0.05 FC"
+    },
+    {
+      "id": 5,
+      "name": " DigBicks #5",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/5.png",
+      "isSold": true,
+      "price": "0.07 FC"
+    },
+    {
+      "id": 6,
+      "name": " DigBicks #6",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/6.png",
+      "isSold": true,
+      "price": "0.05 FC"
+    },
+    {
+      "id": 7,
+      "name": " DigBicks #7",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/7.png",
+      "isSold": true,
+      "price": "0.05 FC"
+    },
+    {
+      "id": 8,
+      "name": " DigBicks #8",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/8.png",
+      "isSold": true,
+      "price": "0.08 FC"
+    },
+    {
+      "id": 9,
+      "name": " DigBicks #9",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/9.png",
+      "isSold": true,
+      "price": "0.06 FC"
+    },
+    {
+      "id": 10,
+      "name": " DigBicks #10",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/10.png",
+      "isSold": true,
+      "price": "0.06 FC"
+    },
+    {
+      "id": 11,
+      "name": " DigBicks #11",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/11.png",
+      "isSold": true,
+      "price": "0.06 FC"
+    },
+    {
+      "id": 12,
+      "name": " DigBicks #12",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/12.png",
+      "isSold": true,
+      "price": "0.06 FC"
+    },
+    {
+      "id": 13,
+      "name": " DigBicks #13",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/13.png",
+      "isSold": true,
+      "price": "0.07 FC"
+    },
+    {
+      "id": 14,
+      "name": " DigBicks #14",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/14.png",
+      "isSold": true,
+      "price": "0.07 FC"
+    },
+    {
+      "id": 15,
+      "name": " DigBicks #15",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/15.png",
+      "isSold": true,
+      "price": "0.08 FC"
+    },
+    {
+      "id": 16,
+      "name": " DigBicks #16",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/16.png",
+      "isSold": true,
+      "price": "0.08 FC"
+    },
+    {
+      "id": 17,
+      "name": " DigBicks #17",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/17.png",
+      "isSold": true,
+      "price": "0.09 FC"
+    },
+    {
+      "id": 18,
+      "name": " DigBicks #18",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/18.png",
+      "isSold": true,
+      "price": "0.09 FC"
+    },
+    {
+      "id": 19,
+      "name": " DigBicks #19",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/19.png",
+      "isSold": true,
+      "price": "0.09 FC"
+    },
+    {
+      "id": 20,
+      "name": " DigBicks #20",
+      "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/20.png",
+      "isSold": true,
+      "price": "0.09 FC"
+    }
+  ]
+}
