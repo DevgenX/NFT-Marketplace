@@ -1,17 +1,17 @@
 import Navbar from "./Navbar";
-import { useLocation, useParams } from "react-router-dom";
+import { useContext } from "react";
+import NFTCard from "./NFTCard";
+import { NFTContext } from "../contexts/nft-context";
 
-import { useState } from "react";
-import NFTTile from "./NFTTile";
-
+let total = 0;
 const Profile = () => {
-  const [data, updateData] = useState([]);
+  const { newNftList } = useContext(NFTContext);
+  // const [totalPrice, updateTotalPrice] = useState(0);
 
-  const onAddNFT = (newNFT) => {
-    updateData([...data, newNFT]);
-  };
-
-  const [totalPrice, updateTotalPrice] = useState(0);
+  const newList = newNftList.map((nft) => {
+    total += newNftList.length * parseInt(nft.price);
+    return total;
+  });
 
   return (
     <div className="profileClass" style={{ "min-height": "100vh" }}>
@@ -26,22 +26,22 @@ const Profile = () => {
         <div className="flex flex-row text-center justify-center mt-10 md:text-2xl text-white">
           <div>
             <h2 className="font-bold">No. of NFTs</h2>
-            {data.length}
+            {newNftList?.length}
           </div>
           <div className="ml-20">
             <h2 className="font-bold">Total Value</h2>
-            {totalPrice} FlatCoins
+            {newList} FlatCoins
           </div>
         </div>
         <div className="flex flex-col text-center items-center mt-11 text-white">
           <h2 className="font-bold">Your NFTs</h2>
           <div className="flex justify-center flex-wrap max-w-screen-xl">
-            {data.map((value, index) => {
-              return <NFTTile data={value} key={index}></NFTTile>;
+            {newNftList?.map((value, index) => {
+              return <NFTCard data={value} key={index}></NFTCard>;
             })}
           </div>
           <div className="mt-10 text-xl">
-            {data.length === 0
+            {newNftList?.length === 0
               ? "Oops, No NFT data to display (Are you logged in?)"
               : ""}
           </div>

@@ -139,6 +139,76 @@
       "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/20.png",
       "isSold": true,
       "price": "0.09 FC"
+    },
+    {
+      "name": "Pudgy Penguin #4242",
+      "description": "Just a normal description",
+      "price": "0.15",
+      "image": "https://opensea.io/assets/ethereum/0xbd3531da5cf5857e7cfaa92426877b022e612cf8/2736",
+      "id": 29
+    },
+    {
+      "name": "Pudgy #3555",
+      "description": "Just a normal pudgy collection",
+      "price": "5",
+      "image": "https://opensea.io/assets/ethereum/0xbd3531da5cf5857e7cfaa92426877b022e612cf8/510",
+      "id": 30
+    },
+    {
+      "name": "Pudgy #5555",
+      "description": "Pudgiess",
+      "price": "5555",
+      "image": "https://pbs.twimg.com/media/FIXyWW2VgAE6CKh?format=jpg&name=small",
+      "id": 31
+    },
+    {
+      "name": "Pudgy #76723",
+      "description": "Pudgy",
+      "price": "5554.98",
+      "image": "https://i.seadn.io/gae/PLYCQX-hkfw74Q4PDIqw0gEc8Ux31dJNgtxq47m0j5q4SRUUf6gAxwpQKm6DUL42yjvDyvlu2vXx-WP8eqWJDs2etQvnT4aVAEoWuA?auto=format&w=1000",
+      "id": 32
+    },
+    {
+      "name": "Pudgy #7232",
+      "description": "Pudgy",
+      "price": "10",
+      "image": "https://i.seadn.io/gae/ltsOzwaidQ3TfyddXxSGW2slh5WDKC8SOSdmsCVTopIGsspzub53hFtKM0pcW-RF7ssz-vsQXqYRF08Pnel0KExXBhqS1mixzcsoCA?auto=format&w=1000",
+      "id": 33
+    },
+    {
+      "name": "Diggie #7655",
+      "description": "Porse",
+      "price": 5,
+      "image": "https://i.seadn.io/gae/D2QB7YDE38Xzlaox9SU7EEFN_6mam_BPCYDnq2vaUxnsGNx-1C-TJY_DUC4nH0j2HSNSO3QQ0Se986x43xrfGD0SW7EKjfdo6d3M?auto=format&w=1000",
+      "id": 34
+    },
+    {
+      "name": "Diggie #5555",
+      "description": "Diggie Bicku",
+      "price": 35,
+      "image": "https://i.seadn.io/gae/sccHuuwjbholzaF8NjsvMpBIaqZequeXdLnaMn2Ls2XXmqJg6PBWQbj4RcGA3dK6H8MF3-LdOdSohtqZ0oa8KRMd7G8Yr9fiwtsFcA?auto=format&w=1000",
+      "id": 35
+    },
+    {
+      "name": "Bordie #21",
+      "description": "Bordie Ape",
+      "price": 5,
+      "image": "https://i.seadn.io/gae/_P7Qd8_-M_YAmzhFYD4ZYoL0Ti3vDU-msqKAbLrhHtdOZ8NJC5Nydkd9N2vPLpfFURBbmbf7d6Sf2ERmVXWyE1rn4v1_eTbUOEvnJMo?auto=format&w=1000",
+      "id": 36
+    },
+    {
+      "name": "Bordie #22",
+      "description": "Bordie Ape Collection",
+      "price": 5,
+      "image": "https://i.seadn.io/gae/tGDJiTbg_7QGP3haIafXg8ZwQjU4CXfE87u4LHF0owLWxrQOXUtqRsmiIFc1i3KlMWtUjfKmzTaf6ep_dInO93e7AelPLwFLtY-4?auto=format&w=1000",
+      "id": 37
+    },
+    {
+      "name": "Bordie #23",
+      "description": "Bordie",
+      "price": 5,
+      "image": "https://i.seadn.io/gae/0EWiMS04N_Yz0br4aR8ml2j413DXE13phKhTB34k4uA5P0a3kS1fSl2-so2NgkHMHLLmWKis8-XIvHLJFCTHAjOzxgFUn2bXTGU4lg?auto=format&w=1000",
+      "id": 38
     }
   ]
 }

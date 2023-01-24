@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../defaultpic.png";
 
-const NFTTile = ({ data }) => {
+const NFTCard = ({ data }) => {
   const newTo = {
-    pathname: "/nftPage/" + data.tokenId,
+    pathname: "/nftPage/" + data.id,
   };
 
   return (
@@ -20,11 +20,11 @@ const NFTTile = ({ data }) => {
         />
         <div className="text-white w-full p-2 bg-gradient-to-t from-[#454545] to-transparent rounded-lg pt-12 -mt-20">
           <strong className="text-xl">{data.name}</strong>
-          <p className="display-inline">{data.description}</p>
+          {/* <p className="display-inline">{data.description}</p> */}
         </div>
       </div>
     </Link>
   );
 };
 
-export default NFTTile;
+export default NFTCard;

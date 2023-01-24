@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
-import { useState } from "react";
-import { useHistory } from "react-router-dom";
-import logo from "../defaultpic.png";
+import { useState, useContext } from "react";
+import { useNavigate } from "react-router-dom";
+import { NFTContext } from "../contexts/nft-context";
 
 const initialData = {
   name: "",
@@ -10,36 +10,42 @@ const initialData = {
   image: "",
 };
 
-const SellNFT = () => {
-  const [formParams, updateFormParams] = useState(initialData);
+const NFTForm = () => {
+  const [formData, updateFormData] = useState(initialData);
 
-  const { name, description, price, image } = formParams;
+  const { name, description, price, image } = formData;
 
-  const [message, updateMessage] = useState("");
+  const { newNftList, setNewNftList } = useContext(NFTContext);
+
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    updateFormParams({ ...formParams, [name]: value });
+
+    if (name === "price") {
+      updateFormData({ ...formData, [name]: parseInt(value) });
+    } else {
+      updateFormData({ ...formData, [name]: value });
+    }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const configObj = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(formData),
+    };
 
-    // const configObj = {
-    //     method: "POST",
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //       Accept: "application/json",
-    //     },
-    //     body: JSON.stringify({ ...formData }),
-    //   };
+    fetch("http://localhost:3000/NFT", configObj)
+      .then((resp) => resp.json())
+      .then((nft) => setNewNftList([...newNftList, nft]));
 
-    // fetch("http://localhost:3000/NFT")
-    // .then((resp) => resp.json())
-    // .then(()
-
-    updateMessage("Your NFT is now Listed!");
     e.target.reset();
+    navigate("/profile");
   };
 
   return (
@@ -51,7 +57,7 @@ const SellNFT = () => {
           onSubmit={handleSubmit}
         >
           <h3 className="text-center font-bold text-black-500 mb-8">
-            List your NFT to the marketplace
+            Create your own NFT
           </h3>
           <div className="mb-4">
             <label
@@ -120,9 +126,9 @@ const SellNFT = () => {
             ></input>
           </div>
           <br></br>
-          <div className="text-green text-center">{message}</div>
+          {/* <div className="text-green text-center">{message}</div> */}
           <button className="font-bold mt-10 w-full bg-red-500 text-white rounded p-2 shadow-lg">
-            List NFT
+            Create NFT
           </button>
         </form>
       </div>
@@ -130,4 +136,4 @@ const SellNFT = () => {
   );
 };
 
-export default SellNFT;
+export default NFTForm;
