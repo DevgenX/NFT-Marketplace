@@ -10,15 +10,11 @@ const NFTPage = () => {
   const [selectedNFT, setSelectedNFT] = useState({});
 
   const params = useParams();
-  console.log(params);
   const { nftList } = useContext(NFTContext);
-  console.log(nftList);
   useEffect(() => {
     const nft = nftList.find((nfts) => nfts.id === parseInt(params?.tokenId));
     setSelectedNFT(nft);
   }, [params?.tokenId, nftList]);
-
-  const handleBuyNFT = () => {};
 
   return (
     <div style={{ "min-height": "100vh" }}>
@@ -48,7 +44,7 @@ const NFTPage = () => {
               : "Diggie Bickies Diggie Bickies"}
           </div>
           <div>
-            Price: <span className="">{selectedNFT?.price}</span>
+            Price: <span className="">{selectedNFT?.price + " FC"}</span>
           </div>
           <div>
             <button className="enableEthereumButton bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-sm">

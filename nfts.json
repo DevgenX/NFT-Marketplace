@@ -209,6 +209,41 @@
       "price": 5,
       "image": "https://i.seadn.io/gae/0EWiMS04N_Yz0br4aR8ml2j413DXE13phKhTB34k4uA5P0a3kS1fSl2-so2NgkHMHLLmWKis8-XIvHLJFCTHAjOzxgFUn2bXTGU4lg?auto=format&w=1000",
       "id": 38
+    },
+    {
+      "name": "Bordie #35",
+      "description": "Just a normal ape",
+      "price": 5,
+      "image": "https://www.thefoodjournal.com.sg/wp-content/uploads/2018/07/shutterstock_1135797380.jpg",
+      "id": 39
+    },
+    {
+      "name": "Bordie #24",
+      "description": "Bordie Ape",
+      "price": 10,
+      "image": "https://i.seadn.io/gae/nbVKKc2tav9rJKtqoaX5aBaPkAtwxHysKnr0i_o1sEoX68G1SgVZiRUQQCu5zj6EM28Ujv3kEoL7v5ok_fx5s_1vAlqTA3zjIVi18A?auto=format&w=1000",
+      "id": 40
+    },
+    {
+      "name": "Bordie #666",
+      "description": "random",
+      "price": 10,
+      "image": "https://i.seadn.io/gae/4oUnHIk-oVtb6Ae43Zqmdt7MlgnWGkCj-_rdlzVGyCNn3mTN9GpwTtjujBbwclkCk9c2RzKTUsxq-htjzkbvkuNu5mUV_Hr5JPup?auto=format&w=1000",
+      "id": 41
+    },
+    {
+      "name": "Borde #23434",
+      "description": "wwrw",
+      "price": 10,
+      "image": "https://i.seadn.io/gae/4oUnHIk-oVtb6Ae43Zqmdt7MlgnWGkCj-_rdlzVGyCNn3mTN9GpwTtjujBbwclkCk9c2RzKTUsxq-htjzkbvkuNu5mUV_Hr5JPup?auto=format&w=1000",
+      "id": 42
+    },
+    {
+      "name": "Bordie #25",
+      "description": "https://i.seadn.io/gae/S0flNwN7l6adqI1MfdtEc-D03zgC_9kk2zgVck0WB8a9DWGu6AKA1pqOe96uQ8bhwwVOdBjonqe925CmZc9GizpUhnCbQYAd6ugDUHo?auto=format&w=1000",
+      "price": 10,
+      "image": "https://i.seadn.io/gae/S0flNwN7l6adqI1MfdtEc-D03zgC_9kk2zgVck0WB8a9DWGu6AKA1pqOe96uQ8bhwwVOdBjonqe925CmZc9GizpUhnCbQYAd6ugDUHo?auto=format&w=1000",
+      "id": 43
     }
   ]
 }
