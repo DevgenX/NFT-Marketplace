@@ -47,7 +47,7 @@ const NFTPage = () => {
             Price: <span className="">{selectedNFT?.price + " FC"}</span>
           </div>
           <div>
-            <button className="enableEthereumButton bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-sm">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-sm">
               Buy this NFT
             </button>
           </div>

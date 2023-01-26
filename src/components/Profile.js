@@ -8,7 +8,7 @@ const Profile = () => {
   const { newNftList } = useContext(NFTContext);
   // const [totalPrice, updateTotalPrice] = useState(0);
 
-  const newList = newNftList.map((nft) => {
+  const value = newNftList.map((nft) => {
     total = newNftList.length * nft.price;
     return total;
   });
@@ -30,8 +30,7 @@ const Profile = () => {
           </div>
           <div className="ml-20">
             <h2 className="font-bold">Total Value</h2>
-            {newList}
-            FlatCoins
+            {`${value}:  FlatCoins`}
           </div>
         </div>
         <div className="flex flex-col text-center items-center mt-11 text-white">

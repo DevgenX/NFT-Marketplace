@@ -57,25 +57,10 @@ const Navbar = () => {
                   <Link to="/profile">Profile</Link>
                 </li>
               )}
-
-              {/* <li className="hover:border-b-2 hover:pb-0 p-2">
-                <h2>Wallet: 5 $FC</h2>
-              </li> */}
-              {/* <li>
-                <button
-                  className="enableEthereumButton bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-sm"
-                  onClick={toggleButton}
-                >
-                  {connected ? "Connected" : "Connect Wallet"}
-                </button>
-              </li> */}
             </ul>
           </li>
         </ul>
       </nav>
-      {/* <div className="text-white text-bold text-right mr-10 text-sm">
-        {connected ? "" : "Not Connected. Please login to view NFTs"}{" "}
-      </div> */}
     </div>
   );
 };
