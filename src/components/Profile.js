@@ -6,7 +6,6 @@ import { NFTContext } from "../contexts/nft-context";
 let total = 0;
 const Profile = () => {
   const { newNftList } = useContext(NFTContext);
-  // const [totalPrice, updateTotalPrice] = useState(0);
 
   const value = newNftList.map((nft) => {
     total = newNftList.length * nft.price;

@@ -2,12 +2,9 @@ import Navbar from "./Navbar";
 import NFTCard from "./NFTCard";
 import { useContext } from "react";
 import { NFTContext } from "../contexts/nft-context";
-import { useWeb3React } from "@web3-react/core";
 
 const Marketplace = () => {
   const { nftList } = useContext(NFTContext);
-  // const { activate } = useWeb3React();
-  // console.log(activate);
 
   return (
     <div>
