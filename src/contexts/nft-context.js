@@ -11,11 +11,11 @@ export const NFTProvider = ({ children }) => {
   const [nftTotal, setNftTotal] = useState(0);
   const [newNftList, setNewNftList] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:3000/NFT")
-      .then((resp) => resp.json())
-      .then((nft) => setNftList(nft));
-  }, [setNftList]);
+  // useEffect(() => {
+  //   fetch("http://localhost:3000/NFT")
+  //     .then((resp) => resp.json())
+  //     .then((nft) => setNftList(nft));
+  // }, [setNftList]);
 
   const value = {
     nftList,
