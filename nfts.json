@@ -139,6 +139,13 @@
       "image": "https://gateway.pinata.cloud/ipfs/QmXc5DLF81s1RLGbvZVhohjRTcjHciZ9CumccP56jwnk6Z/20.png",
       "isSold": true,
       "price": "0.09"
+    },
+    {
+      "name": "Pudgy #666",
+      "description": "just pudgie",
+      "price": 1000,
+      "image": "https://i.seadn.io/gcs/files/a0fd123600eb2a719e245550a4d7fe13.png?auto=format&w=1000",
+      "id": 21
     }
   ]
 }

@@ -2,13 +2,11 @@ import fullLogo from "../full_logo.png";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router";
 import { useEffect, useState, useContext } from "react";
-import logo from "../eth-diamond-black.png";
 
 import { NFTContext } from "../contexts/nft-context";
 
 import { useWeb3React } from "@web3-react/core";
 import { injected } from "./Wallet";
-import web3 from "web3";
 
 const Navbar = () => {
   const { setNftList } = useContext(NFTContext);
