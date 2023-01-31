@@ -27,4 +27,6 @@ const NFTCard = ({ data }) => {
   );
 };
 
+
+
 export default NFTCard;
